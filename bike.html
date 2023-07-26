@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="bikestyle.css">
+</head>
+<body>
+  <div class="bike-details">
+    <h1>BIKE RENT TEMPLAT    
+        
+    </h1>
+    <p></p>
+  </div>
+</body>
+</html>
+ <!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="bikestyle.css">
+</head>
+<body>
+  <div class="bike-container">
+    <a href="bike1.html">
+      <div class="bike" style="background-image: url(gallery/bike1.jpeg);"></div>
+    </a>
+    <a href="bike2.html">
+      <div class="bike" style="background-image: url(gallery/bike2.jpeg);"></div>
+    </a>
+    <a href="bike3.html">
+      <div class="bike" style="background-image: url(gallery/bike3.jpeg);"></div>
+    </a>
+    <a href="bike4.html">
+      <div class="bike" style="background-image: url(gallery/bike4.jpeg);"></div>
+    </a>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>BIKE RENTAL</h1>
+  <p id="rental-cost"></p>
+  
+  }
+
+    <img src="bike1.jpg" alt="Bike 1">
+    <h3>Bike 1</h3>
+    <p>Model: Ducati</p>
+    <p>Type: Road Bike</p>
+    <p>Hourly Rate: $10</p>
+    <p>Daily Rate: $50</p>
+    <label for="duration">Duration (hours):</label>
+    <input type="number" id="duration" min="1" value="1">
+    <p id="rental-cost"></p>
+    <button onclick="calculateRentalCost()">Calculate Cost</button>
+    <button onclick="confirmReservation()">Confirm Reservation</button>
+</div>
+    <!-- ... Previous code ... -->
+
+    <div class="bike-listing">
+      <img src="bike2.jpg" alt="Bike 2">
+      <h3>Bike 2</h3>
+      <p>Model: XYZ456</p>
+      <p>Type: Road Bike</p>
+      <p>Hourly Rate: $12</p>
+      <p>Daily Rate: $60</p>
+      <label for="duration2">Duration (hours):</label>
+      <input type="number" id="duration2" min="1" value="1">
+      <p id="rental-cost2"></p>
+      <button onclick="calculateRentalCost('Bike 2', 'duration2', 'rental-cost2')">Calculate Cost</button>
+      <button onclick="confirmReservation('Bike 2')">Confirm Reservation</button>
+    
+      <div class="nested-bike-listing">
+        <img src="bike3.jpg" alt="Bike 3">
+        <h4>Bike 3</h4>
+        <p>Model: EFG789</p>
+        <p>Type: Electric Bike</p>
+        <p>Hourly Rate: $15</p>
+        <p>Daily Rate: $75</p>
+        <label for="duration3">Duration (hours):</label>
+        <input type="number" id="duration3" min="1" value="1">
+        <p id="rental-cost3"></p>
+        <button onclick="calculateRentalCost('Bike 3', 'duration3', 'rental-cost3')">Calculate Cost</button>
+        <button onclick="confirmReservation('Bike 3')">Confirm Reservation</button>
+      </div>
+    </div>
+    
+  <!-- ... Previous code ... -->
+
+<div class="bike-listing">
+  <img src="bike4.jpg" alt="Bike 4">
+  <h3>Bike 4</h3>
+  <p>Model: HIJ012</p>
+  <p>Type: Hybrid Bike</p>
+  <p>Hourly Rate: $8</p>
+  <p>Daily Rate: $40</p>
+  <label for="duration4">Duration (hours):</label>
+  <input type="number" id="duration4" min="1" value="1">
+  <p id="rental-cost4"></p>
+  <button onclick="calculateRentalCost('Bike 4', 'duration4', 'rental-cost4')">Calculate Cost</button>
+  <button onclick="confirmReservation('Bike 4')">Confirm Reservation</button>
+</div>
+
+<!-- ... Other bike listings ... -->
+<div id="booking-details">
+  <h2>Booking Details</h2>
+  <p>Bike: <span id="selected-bike"></span></p>
+  <p>Duration: <span id="rental-duration"></span> hours</p>
+  <p>Total Cost: $<span id="total-cost"></span></p>
+  <button onclick="initiatePayment()">Proceed to Payment</button>
+</div>
+</body>
+</html>
+
+<!-- ... Booking details section ... -->
